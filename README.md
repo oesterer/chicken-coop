@@ -22,6 +22,8 @@ Controls the doors and lights of a backyard chicken coop based on sunrise and su
 - Mode buttons on GPIO0 (`BUTTON_1`) and GPIO35 (`BUTTON_2`).
 - Battery voltage sense on GPIO38 (`VOLTAGE`) scaled through `VOLTAGE_FACTOR`.
 
+![Electronics enclosure](IMG_8044.jpg)
+
 ## Firmware Highlights
 - `sunTable`: coarse sunrise/sunset lookup (36 entries) tuned for San Francisco; adjust for other locations.
 - `cron`: eight daily states with door/light targets and sunrise/sunset offsets:
