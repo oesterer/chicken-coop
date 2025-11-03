@@ -22,7 +22,7 @@ Controls the doors and lights of a backyard chicken coop based on sunrise and su
 - Mode buttons on GPIO0 (`BUTTON_1`) and GPIO35 (`BUTTON_2`).
 - Battery voltage sense on GPIO38 (`VOLTAGE`) scaled through `VOLTAGE_FACTOR`.
 
-![Electronics enclosure](IMG_8044.jpg)
+![Electronics enclosure](electronics.jpg)
 
 ## Firmware Highlights
 - `sunTable`: coarse sunrise/sunset lookup (36 entries) tuned for San Francisco; adjust for other locations.
@@ -67,3 +67,5 @@ Controls the doors and lights of a backyard chicken coop based on sunrise and su
 - Calibrate `VOLTAGE_FACTOR` based on your voltage divider to improve battery readings.
 
 In production since 2020 and still waking the flock on schedule.
+
+![Chicken coop](coop.jpg)
